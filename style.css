@@ -1,0 +1,36 @@
+body {
+    background: url("background.jpg");
+    backdrop-filter: blur(3px) brightness(45%);
+}
+
+#logo img {
+    height: 150px;
+    inline-size: auto;
+    margin: -100px 0 100px 0px;
+}
+
+#date {
+    font-size: 5rem;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 70px #f78dcc;
+}
+
+#time {
+    font-size: 7rem;
+    color: #ffffff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-weight: bold;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 60px #fff, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 60px #fff, 0 0 80px #ff4da6;
+    }
+}
